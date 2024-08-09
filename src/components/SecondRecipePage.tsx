@@ -13,7 +13,7 @@ const SecondRecipePage = () => {
     <>
       <div className="flex flex-row p-20">
         <div className="w-1/2">
-          <h1 className="font-semibold text-4xl">
+          <h1 className="font-semibold text-5xl">
             Try this delicious recipe <br /> to make your day
           </h1>
         </div>

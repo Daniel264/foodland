@@ -1,6 +1,6 @@
 const SubscriptionPage = () => {
   return (
-    <div className="p-10">
+    <div className="p-10 mt-16">
       <div className="bg-[#E7FAFE] py-20 rounded-3xl text-center">
         <h1 className="font-semibold text-5xl p-7">
           Deliciousness to your inbox
