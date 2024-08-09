@@ -37,9 +37,9 @@ const ImageGrid = () => {
         <p className="text-2xl font-semibold font-inter">Chicken Meatballs with Cream Cheese</p>
         <div><img src={timer} alt="" /></div>
       </div>
-      <div className=" h-96 rounded-2xlitems-center">
+      <div className=" h-96 rounded-2xl items-center">
         <img className="rounded-2xl h-96 flex" src={Ads} alt="" />
-        <div><img src={timer} alt="" /></div>
+    
       </div>
       <div className=" h-96 rounded-2xl flex flex-col items-center text-center bg-gradient-to-b from-white to-[#E7FAFE]">
         <img className="rounded-2xl h-64" src={Food7} alt="" />
