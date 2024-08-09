@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const SecondRecipePage = () => {
   return (
@@ -12,7 +12,7 @@ const SecondRecipePage = () => {
           temporibus accusantium, odit ullam aut nesciunt? Sequi, vel corporis?
         </p>
         <div className="grid grid-cols-2 grid-rows-4 gap-4">
-            
+
         </div>
       </div>
     </>

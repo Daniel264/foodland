@@ -1,4 +1,4 @@
-import React from "react";
+
 import Chef from "../images/Chef.svg";
 
 const ChefSide = () => {
