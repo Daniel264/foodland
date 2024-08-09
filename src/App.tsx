@@ -7,6 +7,7 @@ import ImageGrid from "./components/ImageGrid";
 import ChefSide from "./components/ChefSide";
 import SocialMedia from "./components/SocialMedia";
 import SecondRecipePage from "./components/SecondRecipePage";
+import SubscriptionPage from "./components/SubscriptionPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ChefSide/>
       <SocialMedia />
       <SecondRecipePage />
+      <SubscriptionPage />
     </>
   );
 }
