@@ -11,15 +11,18 @@ import EightImg from "../images/Eight-img.svg";
 const SecondRecipePage = () => {
   return (
     <>
-      <div className="flex flex-row p-10">
-        <h1 className="font-semibold text-4xl w-1/2">
-          Try this delicious recipe to make your day
-        </h1>
-        <p>
+      <div className="flex flex-row p-20">
+            <div className="w-1/2">
+                <h1 className="font-semibold text-4xl">
+                  Try this delicious recipe <br /> to make your day
+                </h1>
+            </div>
+        <p className="w-1/2">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque fugiat
           temporibus accusantium, odit ullam aut nesciunt? Sequi, vel corporis?
         </p>
-        <div className="grid grid-cols-2 grid-rows-4 gap-4">
+        </div>
+        <div className="grid grid-cols-4 grid-rows-2 gap-4 px-12">
           <ReausableImage
             image={FirstImg}
             alt={""}
@@ -69,7 +72,7 @@ const SecondRecipePage = () => {
             useGradient={false}
           />
         </div>
-      </div>
+
     </>
   );
 };
