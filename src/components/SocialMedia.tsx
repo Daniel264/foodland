@@ -6,7 +6,7 @@ import InstagramWhite from '..//images/instagram white.svg'
 
 const SocialMedia = () => {
   return (
-    <>
+    <div className="bg-gradient-to-b from-white to-[#E7FAFE] pb-20">
       <div className="p-10 text-center">
         <h1 className="font-inter text-4xl font-semibold">
           Check out @foodieland on Instagram
@@ -28,7 +28,7 @@ const SocialMedia = () => {
             <img src={InstagramWhite} />
           </button>
       </div>
-    </>
+    </div>
   );
 };
 
