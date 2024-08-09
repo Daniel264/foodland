@@ -1,6 +1,6 @@
 import Meat from "../images/image 21.svg";
 import Desert from "../images/image 22.svg";
-import Vegan from "../images/Group 879.svg";
+import Vegan from "../images/Vegan.svg";
 import Breakfast from "../images/image 25.svg";
 import chocolate from "../images/image 24.svg";
 import Lunch from "../images/Lunch.svg";
