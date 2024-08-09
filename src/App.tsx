@@ -1,14 +1,14 @@
-
-import './index.css'
-import NavigationHeader from './components/NavigationHeader'
+import "./index.css";
+import NavigationHeader from "./components/NavigationHeader";
+import FeaturedRecipe from "./components/FeaturedRecipe";
 
 function App() {
-
   return (
     <>
-      <NavigationHeader/>
+      <NavigationHeader />
+      <FeaturedRecipe />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
