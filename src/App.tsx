@@ -1,11 +1,12 @@
 
-import './App.css'
+import './index.css'
+import NavigationHeader from './components/NavigationHeader'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-black text-2xl">Hello World</h1>
+      <NavigationHeader/>
     </>
   )
 }
