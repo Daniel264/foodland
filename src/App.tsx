@@ -5,6 +5,7 @@ import CategoriesPage from "./components/CategoriesPage";
 import RecipeDisplay from "./components/RecipeDisplay";
 import ImageGrid from "./components/ImageGrid";
 import ChefSide from "./components/ChefSide";
+import SocialMedia from "./components/SocialMedia";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <RecipeDisplay />
       <ImageGrid />
       <ChefSide/>
+      <SocialMedia />
     </>
   );
 }
