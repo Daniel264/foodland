@@ -6,6 +6,7 @@ import RecipeDisplay from "./components/RecipeDisplay";
 import ImageGrid from "./components/ImageGrid";
 import ChefSide from "./components/ChefSide";
 import SocialMedia from "./components/SocialMedia";
+import SecondRecipePage from "./components/SecondRecipePage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ImageGrid />
       <ChefSide/>
       <SocialMedia />
+      <SecondRecipePage />
     </>
   );
 }
