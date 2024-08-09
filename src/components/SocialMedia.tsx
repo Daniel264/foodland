@@ -13,7 +13,7 @@ const SocialMedia = () => {
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          ad quo nihil necessitatibus ab? Veniam.
+          ad quo nihil necessitatius ab? Veniam.
         </p>
       </div>
       <div className="flex flex-row justify-between p-10">
