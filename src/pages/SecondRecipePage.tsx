@@ -1,4 +1,4 @@
-import ReausableImage from "./ReausableImage";
+import ReausableImage from "../components/ReausableImage";
 import FirstImg from "../images/First-img.svg";
 import SecondImg from "../images/Sec-img.svg";
 import ThirdImg from "../images/Trd-img.svg";

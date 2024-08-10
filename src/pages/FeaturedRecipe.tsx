@@ -4,8 +4,8 @@ import LeftRectangle from "../images/Rectangle 5.svg";
 import HotRecipes from "../images/hot-recipes.svg";
 import Knife from "../images/ForkKnife.svg";
 import time from "../images/time.svg";
-import JohnSmith from "../images/Ellipse 2.svg";
 import intersect from "../images/Badge.svg";
+import JohnSmith from "../components/JohnSmith";
 const FeaturedRecipe = () => {
   return (
     <div className="w-full justify-center h-fit flex font-inter">
@@ -37,13 +37,7 @@ const FeaturedRecipe = () => {
             </div>
           </div>
           <div className="flex justify-between pt-36">
-            <div className="flex">
-              <img className="" src={JohnSmith} alt="" />
-              <div>
-                <h4>John Smith</h4>
-                <p>15 March 2022</p>
-              </div>
-            </div>
+            <JohnSmith />
             <div>
               <button className="btn bg-black text-white">View Recipes</button>
             </div>

@@ -1,28 +1,33 @@
-import "./index.css";
 import NavigationHeader from "./components/NavigationHeader";
-import FeaturedRecipe from "./components/FeaturedRecipe";
-import CategoriesPage from "./components/CategoriesPage";
-import RecipeDisplay from "./components/RecipeDisplay";
-import ImageGrid from "./components/ImageGrid";
-import ChefSide from "./components/ChefSide";
-import SocialMedia from "./components/SocialMedia";
-import SecondRecipePage from "./components/SecondRecipePage";
-import SubscriptionPage from "./components/SubscriptionPage";
-import Footer from "./components/Footer";
+import "./index.css";
+import NewRecipeDisplay from "./innerComponent/NewRecipeDisplay";
+// import NavigationHeader from "./components/NavigationHeader";
+// import FeaturedRecipe from "./pages/FeaturedRecipe";
+// import CategoriesPage from "./pages/CategoriesPage";
+// import RecipeDisplay from "./pages/RecipeDisplay";
+// import ImageGrid from "./pages/ImageGrid";
+// import ChefSide from "./pages/ChefSide";
+// import SocialMedia from "./pages/SocialMedia";
+// import SecondRecipePage from "./pages/SecondRecipePage";
+// import SubscriptionPage from "./components/SubscriptionPage";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <NavigationHeader />
+      {/* <NavigationHeader />
       <FeaturedRecipe />
       <CategoriesPage />
       <RecipeDisplay />
       <ImageGrid />
-      <ChefSide/>
+      <ChefSide />
       <SocialMedia />
       <SecondRecipePage />
       <SubscriptionPage />
-      <Footer />
+      <Footer /> */}
+
+      <NavigationHeader />
+      <NewRecipeDisplay />
     </>
   );
 }

@@ -7,12 +7,12 @@ import Food7 from "../images/image 27 (1).svg";
 import Food8 from "../images/image 27 (2).svg";
 import Food6 from "../images/image 27.svg";
 import Ads from "../images/Ads.svg";
-import ReausableImage from "./ReausableImage";
+import ReausableImage from "../components/ReausableImage";
 
 const ImageGrid = () => {
   return (
     <div className="grid grid-cols-3 gap-4 p-10 pl-28 h-fit mx-auto w-full font-inter">
-      <ReausableImage 
+      <ReausableImage
         image={CheeseBurger}
         alt="An image of a Wagyu beef"
         text={"Big and juicy Wagyu Beef Cheeseburger"}
