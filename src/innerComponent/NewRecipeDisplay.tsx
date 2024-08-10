@@ -2,6 +2,7 @@ import JohnSmith from "../components/JohnSmith";
 import time from "../images/time.svg";
 import Knife from "../images/ForkKnife.svg";
 import Food3 from "../images/Trd-img.svg";
+import PlayButton from '../images/playbutton.svg'
 
 const NewRecipeDisplay = () => {
   return (
@@ -31,7 +32,8 @@ const NewRecipeDisplay = () => {
               <img src={Knife} alt="" /> <p>Chicken</p>
             </div>
           </div>
-          <div className="w-full m-10 overflow-hidden rounded-3xl">
+          <div className="w-full m-10 overflow-hidden rounded-3xl relative">
+            <img className="absolute top-52 left-96 cursor-pointer" src={PlayButton} alt="" />
             <img className="w-full" src={Food3} alt="" />
           </div>
         </div>
