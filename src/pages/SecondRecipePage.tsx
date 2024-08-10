@@ -7,8 +7,51 @@ import FifthImg from "../images/Fifth-img.svg";
 import SixthImg from "../images/Sixth-img.svg";
 import SeventhImg from "../images/Seventh-img.svg";
 import EightImg from "../images/Eight-img.svg";
+import { Link } from "react-router-dom";
 
 const SecondRecipePage = () => {
+  const users = [
+    {
+      id: 1,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: FirstImg,
+    },
+    {
+      id: 2,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: SecondImg,
+    },
+    {
+      id: 3,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: ThirdImg,
+    },
+    {
+      id: 4,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: FourthImg,
+    },
+    {
+      id: 5,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: FifthImg,
+    },
+    {
+      id: 6,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: SixthImg,
+    },
+    {
+      id: 7,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: SeventhImg,
+    },
+    {
+      id: 8,
+      text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+      image: EightImg,
+    },
+  ];
   return (
     <>
       <div className="flex flex-row p-20">
@@ -23,70 +66,19 @@ const SecondRecipePage = () => {
         </p>
       </div>
       <div className="grid grid-cols-4 grid-rows-2 gap-4 px-12">
-        <ReausableImage
-          image={FirstImg}
-          alt={""}
-          text={"Mixed Tropical Fruit Salad with Superfood Boosts"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
-        <ReausableImage
-          image={SecondImg}
-          alt={""}
-          text={"Big and Juicy Wagyu Beef Cheeseburger"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
-        <ReausableImage
-          image={ThirdImg}
-          alt={""}
-          text={"Health Japanese Fried Rice with Asparagus"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
-        <ReausableImage
-          image={FourthImg}
-          alt={""}
-          text={"Cauliflower Walnut Vegetarian Taco Meat"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
-        <ReausableImage
-          image={FifthImg}
-          alt={""}
-          text={"Rainbow Chicken Salad with Almond Honey Mustard Dressing"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
-        <ReausableImage
-          image={SixthImg}
-          alt={""}
-          text={"Barbeque Spicy Sandwitches with Chips"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
-        <ReausableImage
-          image={SeventhImg}
-          alt={""}
-          text={"Firecracker Vegan Lettuce Wraps"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
-        <ReausableImage
-          image={EightImg}
-          alt={""}
-          text={"Chicken Ramen Soup with Mushroom"}
-          useGradient={false}
-          width={false}
-          fontSize={false}
-        />
+        {users.map((user) => (
+          <Link
+            to={`/users/${user.id}`}
+            state={{ image: user.image, text: user.text }} // Correct way to pass state
+            key={user.id}
+          >
+            <ReausableImage
+              image={user.image}
+              alt={user.text}
+              text={user.text}
+            />
+          </Link>
+        ))}
       </div>
     </>
   );

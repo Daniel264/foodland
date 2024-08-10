@@ -4,7 +4,8 @@ import NewRecipeDisplay from "../innerComponent/NewRecipeDisplay";
 
 const router = createBrowserRouter([
   { path: "/", element: <FirstPage /> },
-  { path: "/users", element: <NewRecipeDisplay /> },
+  { path: "/users/:text", element: <NewRecipeDisplay /> },
+  { path: "/users/:image", element: <NewRecipeDisplay /> },
 ]);
 
-export default router;
+export default router
