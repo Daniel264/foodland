@@ -3,6 +3,7 @@ import NavigationHeader from "../components/NavigationHeader";
 import NewRecipeDisplay from "./NewRecipeDisplay";
 import IngredientsPage from "./IngredientsPage";
 import Directions from "./Directions";
+import SubscriptionPage from "../components/SubscriptionPage";
 
 const FullApp = () => {
   return (
@@ -11,6 +12,7 @@ const FullApp = () => {
       <NewRecipeDisplay />
       <IngredientsPage />
       <Directions />
+      <SubscriptionPage />
     </>
   );
 };

@@ -9,7 +9,7 @@ const IngredientsPage = () => {
         {id: 1, text: 'Lorem ipsum dolor sit amet.'}
     ]
   return (
-    <div className="flex">
+    <div className="flex p-14">
       <div className="w-10/12">
         <h1 className="font-semibold text-4xl">Ingredients</h1>
         <h2 className="font-semibold text-3xl"></h2>
