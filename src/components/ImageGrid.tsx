@@ -11,7 +11,7 @@ import ReausableImage from "./ReausableImage";
 
 const ImageGrid = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 p-10 pl-28 h-fit mx-auto w-full">
+    <div className="grid grid-cols-3 gap-4 p-10 pl-28 h-fit mx-auto w-full font-inter">
       <ReausableImage 
         image={CheeseBurger}
         alt="An image of a Wagyu beef"

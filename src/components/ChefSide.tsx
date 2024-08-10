@@ -3,7 +3,7 @@ import Chef from "../images/Chef.svg";
 
 const ChefSide = () => {
   return (
-    <div className="flex flex-row p-20">
+    <div className="flex flex-row p-20 font-inter">
       <div className="w-1/2">
         <h1 className="text-5xl font-semibold py-10">
           Everyone can be a chef in their own kitchen

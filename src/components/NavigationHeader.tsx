@@ -5,8 +5,8 @@ import instagram from '../images/004-instagram.png'
 
 const NavigationHeader = () => {
     return (
-      <div className="h-32 top-40 left-80 w-full flex flex-row items-center justify-between px-8">
-        <h2 className="font-lobster font-normal text-2xl">Foodieland</h2>
+      <div className="h-32 top-40 left-80 w-full flex flex-row items-center justify-between px-8 font-inter">
+        <h2 className="font-lobster font-normal text-2xl">Foodieland<span className='text-red-500'>.</span></h2>
         <ul className="flex flex-row space-x-8 font-semibold text-lg">
           <li>Home</li>
           <li>Recipes</li>

@@ -5,10 +5,10 @@ import instagram from "../images/004-instagram.png";
 const Footer = () => {
   return (
     <>
-      <footer className="w-full divide-y-[1px]">
+      <footer className="w-full divide-y-[1px] font-inter">
         <div className="h-32 top-40 left-80 w-full flex flex-row items-center justify-between px-8">
           <div>
-            <h2 className="font-lobster font-normal text-2xl">Foodieland</h2>
+            <h2 className="font-lobster font-normal text-2xl">Foodieland<span className='text-red-500'>.</span></h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
           <div>
