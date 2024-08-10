@@ -35,7 +35,7 @@ const IngredientsPage = () => {
           image={ThirdImg}
           text="The Best Easy One Pot Chicken and Rice..."
         />
-        <img className="" src={Ads} alt="" />
+        <img className="pt-10" src={Ads} alt="" />
       </div>
     </div>
   );
