@@ -1,5 +1,4 @@
 
-import { Link } from "react-router-dom";
 import timer from "../images/timer.svg";
 
 interface Props {

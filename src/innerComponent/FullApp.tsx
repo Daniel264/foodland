@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import NavigationHeader from "../components/NavigationHeader";
+import NewRecipeDisplay from "./NewRecipeDisplay";
+import IngredientsPage from "./IngredientsPage";
 
 const FullApp = () => {
   return (
-    <div>FullApp</div>
-  )
-}
+    <>
+      <NavigationHeader />
+      <NewRecipeDisplay />
+      <IngredientsPage />
+    </>
+  );
+};
 
-export default FullApp
+export default FullApp;
