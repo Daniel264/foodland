@@ -8,6 +8,7 @@ import ChefSide from "./components/ChefSide";
 import SocialMedia from "./components/SocialMedia";
 import SecondRecipePage from "./components/SecondRecipePage";
 import SubscriptionPage from "./components/SubscriptionPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <SocialMedia />
       <SecondRecipePage />
       <SubscriptionPage />
+      <Footer />
     </>
   );
 }
