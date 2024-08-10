@@ -65,7 +65,7 @@ const NewRecipeDisplay = () => {
           </p>
         </div>
       </div>
-      <div className="p-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim consectetur est iure autem, possimus suscipit provident. At hic nam totam fuga quia maiores ipsa animi similique nulla enim perspiciatis omnis tempora eum, officia ducimus accusantium odio! Sapiente, obcaecati. Distinctio aliquid nesciunt neque qui expedita debitis, corporis maiores laborum tenetur quod.</div>
+      <div className="p-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde fuga tempora, necessitatibus vero saepe labore, omnis repudiandae quisquam tenetur tempore in minus quod provident repellendus voluptate expedita laudantium enim ipsa consequatur debitis, quas error? Quos, tempore voluptatem quis quia architecto hic facere debitis minima, sed aperiam ad, earum error ab beatae voluptate sequi repudiandae. Eius saepe at velit nostrum, dolores culpa rerum accusantium. Nostrum repellendus quae magnam minus consequatur!</div>
     </>
   );
 };

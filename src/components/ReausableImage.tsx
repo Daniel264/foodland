@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import timer from "../images/timer.svg";
 
 interface Props {
@@ -14,7 +15,7 @@ const ReausableImage = ({ image, alt, text, useGradient = true, width = true, fo
   return (
     <div className={`${width ? "h-96" : "h-72"} rounded-2xl flex flex-col items-center text-center ${useGradient ? "bg-gradient-to-b from-white to-[#E7FAFE]" : ""}`}>
       <img className="rounded-2xl h-64" src={image} alt={alt} />
-      <h3 className={`${fontSize? "text-2xl": "text-xl"} font-semibold font-inter`}>{text}</h3>
+      <Link to='/users' className={`${fontSize? "text-2xl": "text-xl"} font-semibold font-inter`}>{text}</Link>
       <div>
         <img src={timer} alt="" />
       </div>
