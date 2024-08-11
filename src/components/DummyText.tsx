@@ -1,9 +1,11 @@
-import React from "react";
 
-const DummyText = () => {
+interface Props {
+  id: number
+}
+const DummyText = ({id}: Props) => {
   return (
     <>
-      <h2 className="font-semibold text-3xl pb-4">Lorem ipsum dolor sit amet.</h2>
+      <h2 className="font-semibold text-3xl pb-4">{id}. Lorem ipsum dolor sit amet.</h2>
       <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed qui cum,
           maiores, corrupti animi quod dolores illo ipsa, officiis iste molestiae

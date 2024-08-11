@@ -13,7 +13,7 @@ const NewRecipeDisplay = () => {
   return (
     <>
       <div className="flex p-12">
-        <div className="w-7/12">
+        <div className="w-8/12 ">
           <h1 className="font-inter font-semibold text-5xl p-5">
             {text || id}
           </h1>
@@ -43,7 +43,7 @@ const NewRecipeDisplay = () => {
               src={PlayButton}
               alt=""
             />
-            <img className="w-full" src={image} alt="" />
+            <img className="w-11/12 rounded-3xl" src={image} alt="" />
           </div>
         </div>
         <div className="bg-[#E7FAFE] mx-auto rounded-3xl mt-56 w-96 text-center h-fit p-5">
@@ -73,7 +73,7 @@ const NewRecipeDisplay = () => {
             <h4>37.4mg</h4>
           </div>
           <hr />
-          <p className="pt-24">
+          <p className="pt-36">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam,
             minus!
           </p>

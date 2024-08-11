@@ -7,12 +7,12 @@ const Directions = () => {
     <>
       <div className="w-8/12 p-14">
         <h1 className="font-semibold text-4xl pb-3">Directions</h1>
-        <DummyText />
+        <DummyText id={1} />
         <img className='w-full py-10' src={DummyImage} alt="" />
         <hr className='border-gray-200 pb-10'/>
-        <DummyText/>
+        <DummyText id={2}/>
         <hr className='my-10' />  
-        <DummyText/>
+        <DummyText id={3}/>
         <hr className='my-10' />  
 
 

@@ -1,18 +1,20 @@
-import CheeseBurger from "../images/CheeseBurger.svg";
-import Food1 from "../images/image 26 (1).svg";
-import Food2 from "../images/image 26 (2).svg";
-import Food3 from "../images/image 26 (3).svg";
-import Food4 from "../images/image 26 (4).svg";
-import Food7 from "../images/image 27 (1).svg";
-import Food8 from "../images/image 27 (2).svg";
-import Food6 from "../images/image 27.svg";
-import Ads from "../images/Ads.svg";
+// import CheeseBurger from "../images/CheeseBurger.svg";
+// import Food1 from "../images/image 26 (1).svg";
+// import Food2 from "../images/image 26 (2).svg";
+// import Food3 from "../images/image 26 (3).svg";
+// import Food4 from "../images/image 26 (4).svg";
+// import Food7 from "../images/image 27 (1).svg";
+// import Food8 from "../images/image 27 (2).svg";
+// import Food6 from "../images/image 27.svg";
+// import Ads from "../images/Ads.svg";
+import { Link } from "react-router-dom";
+import { users } from "../components/Food2";
 import ReausableImage from "../components/ReausableImage";
 
 const ImageGrid = () => {
   return (
     <div className="grid grid-cols-3 gap-4 p-10 pl-28 h-fit mx-auto w-full font-inter">
-      <ReausableImage
+      {/* <ReausableImage
         image={CheeseBurger}
         alt="An image of a Wagyu beef"
         text={"Big and juicy Wagyu Beef Cheeseburger"}
@@ -55,7 +57,14 @@ const ImageGrid = () => {
         image={Food8}
         alt={""}
         text={"The Creamiest Creamy Chicken and Bacon Pasta"}
-      />
+      /> */}
+      {users.map((user) => (
+        <Link to={`/users/${user.id}`}
+        state={{image: user.image, text: user.text}}
+        key={user.id}>
+          <ReausableImage image={user.image} alt={user.text} text={user.text}/>
+        </Link>
+      ))}
     </div>
   );
 };
