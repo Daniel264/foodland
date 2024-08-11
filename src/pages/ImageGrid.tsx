@@ -64,7 +64,9 @@ const ImageGrid = () => {
         key={user.id}>
           <ReausableImage image={user.image} alt={user.text} text={user.text}/>
         </Link>
+
       ))}
+
     </div>
   );
 };
