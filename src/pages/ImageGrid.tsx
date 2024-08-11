@@ -10,6 +10,7 @@
 import { Link } from "react-router-dom";
 import { users } from "../components/Food2";
 import ReausableImage from "../components/ReausableImage";
+import Ads from '../images/Ads.svg'
 
 const ImageGrid = () => {
   return (
@@ -58,11 +59,20 @@ const ImageGrid = () => {
         alt={""}
         text={"The Creamiest Creamy Chicken and Bacon Pasta"}
       /> */}
-      {users.map((user) => (
+      {users.slice(0, 5).map((user) => (
         <Link to={`/users/${user.id}`}
         state={{image: user.image, text: user.text}}
         key={user.id}>
           <ReausableImage image={user.image} alt={user.text} text={user.text}/>
+        </Link>
+
+      ))}
+      <img className="w-full h-5/6" src={Ads} alt="" />
+      {users.slice(6, 9).map((user) => (
+        <Link to={`/users/${user.id}`}
+        state={{image: user.image, text: user.text}}
+        key={user.id}>
+          <ReausableImage useGradient={true} image={user.image} alt={user.text} text={user.text} height={true}/>
         </Link>
 
       ))}
