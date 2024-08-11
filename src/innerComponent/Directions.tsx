@@ -3,8 +3,8 @@ import DummyImage from '../images/DirectionImage.svg';
 import DummyText from '../components/DummyText';
 
 const Directions = () => {
-  // Initial state: all items are unchecked
-  const [checkedItems, setCheckedItems] = useState({
+  // Explicitly type checkedItems as a record with number keys
+  const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({
     1: false,
     2: false,
     3: false,
