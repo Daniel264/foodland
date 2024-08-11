@@ -1,4 +1,4 @@
-import React from "react";
+
 import checked from "../images/Checked.svg";
 import unchecked from "../images/Unchecked.svg";
 
