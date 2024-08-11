@@ -5,7 +5,7 @@ import FourthImg from "../images/Fourth-img.svg";
 import FifthImg from "../images/Fifth-img.svg";
 import SixthImg from "../images/Sixth-img.svg";
 import SeventhImg from "../images/Seventh-img.svg";
-import EightImg from "../images/Eight-img.svg";
+import EightImg from "../images/Eiggt.svg";
 // import Snack from '../images/Snack.svg'
 // import Fish from '../images/Fish.svg'
 // import Breakfast from '../images/Breakfast.svg'
