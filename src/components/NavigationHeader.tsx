@@ -1,12 +1,14 @@
-import facebook from '../images/001-facebook.svg'
-import twitter from '../images/003-twitter.svg'
-import instagram from '../images/004-instagram.png'
-
+import facebook from "../images/001-facebook.svg";
+import twitter from "../images/003-twitter.svg";
+import instagram from "../images/004-instagram.png";
 
 const NavigationHeader = () => {
-    return (
+  return (
+    <>
       <div className="h-32 top-40 left-80 w-full flex flex-row items-center justify-between px-8 font-inter">
-        <h2 className="font-lobster font-normal text-2xl">Foodieland<span className='text-red-500'>.</span></h2>
+        <h2 className="font-lobster font-normal text-2xl">
+          Foodieland<span className="text-red-500">.</span>
+        </h2>
         <ul className="flex flex-row space-x-8 font-semibold text-lg">
           <li>Home</li>
           <li>Recipes</li>
@@ -14,14 +16,15 @@ const NavigationHeader = () => {
           <li>Contact</li>
           <li>About Us</li>
         </ul>
-        <div className='flex flex-row w-24 justify-between cursor-pointer'>
-            <img src={facebook} alt="facebook logo" />
-            <img src={twitter} alt="facebook logo" />
-            <img src={instagram} alt="facebook logo" />
+        <div className="flex flex-row w-24 justify-between cursor-pointer">
+          <img src={facebook} alt="facebook logo" />
+          <img src={twitter} alt="facebook logo" />
+          <img src={instagram} alt="facebook logo" />
         </div>
       </div>
-    );
-  };
-  
-  export default NavigationHeader;
-  
+      <hr  className="mb-14"/>
+    </>
+  );
+};
+
+export default NavigationHeader;
