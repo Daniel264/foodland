@@ -54,7 +54,7 @@ const ReausableImage = ({
       >
         {text}
       </h3>
-      <div>
+      <div className="w-full pl-10 pt-4 flex justify-start">
         <img src={timer} alt="timer" />
       </div>
     </div>
