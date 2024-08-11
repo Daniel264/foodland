@@ -1,6 +1,5 @@
 This is a React.js project bootstrapped with [react-intern]
 
 Deployed on Vercel
-this project has been deployed to vercel under the following link - https://foodland-efow8hhrh-daniel-olatinsus-projects.vercel.app/
+this project has been deployed to vercel under the following link - https://foodland-blue.vercel.app/
 
-Although, due of limited time, some features could not be implemented
