@@ -1,7 +1,12 @@
+import Salad from '../images/salad.svg'
+import veges from '../images/vegetables.png'
+
 const SubscriptionPage = () => {
   return (
-    <div className="p-10 mt-16 font-inter">
-      <div className="bg-[#E7FAFE] py-20 rounded-3xl text-center">
+    <div className="p-10 mt-16 font-inter overflow-hidden relative">
+      <div className="bg-[#E7FAFE] py-20 rounded-3xl text-center overflow-hidden relative">
+        <img className='absolute -right-8 bottom-0' src={Salad} alt="" />
+        <img className='absolute -left-10' src={veges} alt="" />
         <h1 className="font-semibold text-5xl p-7">
           Deliciousness to your inbox
         </h1>

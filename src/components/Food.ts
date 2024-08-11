@@ -16,37 +16,37 @@ export const users = [
   },
   {
     id: 2,
-    text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    text: "Big and Juicy Wagyu Beef Cheeseburger",
     image: SecondImg,
   },
   {
     id: 3,
-    text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    text: "Healthy Japanese Fried Rice with Asparagus",
     image: ThirdImg,
   },
   {
     id: 4,
-    text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    text: "Cauliflower Walnut Vegetarian Taco Meat",
     image: FourthImg,
   },
   {
     id: 5,
-    text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    text: "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
     image: FifthImg,
   },
   {
     id: 6,
-    text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    text: "Barbeque Spicy Sandwitches with Chips",
     image: SixthImg,
   },
   {
     id: 7,
-    text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    text: "Firecracker Vegan Lettuce Wraps - Spicy!",
     image: SeventhImg,
   },
   {
     id: 8,
-    text: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    text: "Chicken Ramen Soup with Mushroom",
     image: EightImg,
   },
 

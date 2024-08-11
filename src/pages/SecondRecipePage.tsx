@@ -26,6 +26,7 @@ const SecondRecipePage = () => {
             key={user.id}
           >
             <ReausableImage
+            useGradient={false}
               image={user.image}
               alt={user.text}
               text={user.text}
