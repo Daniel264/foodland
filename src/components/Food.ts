@@ -6,6 +6,13 @@ import FifthImg from "../images/Fifth-img.svg";
 import SixthImg from "../images/Sixth-img.svg";
 import SeventhImg from "../images/Seventh-img.svg";
 import EightImg from "../images/Eight-img.svg";
+// import Snack from '../images/Snack.svg'
+// import Fish from '../images/Fish.svg'
+// import Breakfast from '../images/Breakfast.svg'
+// import Healthy from '../images/Healthy.svg'
+// import Meat from '../images/Meat.svg'
+// import Sweet from '../images/Sweet.svg'
+// import Noodles from '../images/Noodles.svg'
 
 
 export const users = [

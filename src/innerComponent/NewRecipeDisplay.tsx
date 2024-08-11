@@ -4,7 +4,9 @@ import Knife from "../images/ForkKnife.svg";
 
 import PlayButton from "../images/playbutton.svg";
 import { useLocation, useParams } from "react-router-dom";
+import share from "../images/share.svg";
 
+import printer from "../images/printer.svg";
 const NewRecipeDisplay = () => {
   const { id } = useParams();
   const location = useLocation();
@@ -13,10 +15,24 @@ const NewRecipeDisplay = () => {
   return (
     <>
       <div className="flex p-12">
-        <div className="w-8/12 ">
+        <div className="w-8/12">
           <h1 className="font-inter font-semibold text-5xl p-5">
             {text || id}
           </h1>
+          <div className="absolute right-28 top-56 flex w-48 justify-between">
+            <div className="">
+              <div className="bg-[#E7FAFE] w-20 h-20 rounded-full flex items-center cursor-pointer justify-center">
+                <img className=" rounded-full w-8" src={printer} alt="" />
+              </div>
+              <h2 className="font-medium pl-5 pt-3">PRINT</h2>
+            </div>
+            <div>
+              <div className="bg-[#E7FAFE] w-20 h-20 rounded-full flex items-center cursor-pointer justify-center">
+                <img className="w-8" src={share} alt="" />
+              </div>
+                <h2 className="font-medium pl-5 pt-3">SHARE</h2>
+            </div>
+          </div>
           <div className="flex ml-10">
             <JohnSmith />
             <div className="flex w-40 ml-6">
@@ -37,6 +53,7 @@ const NewRecipeDisplay = () => {
               <img src={Knife} alt="" /> <p>Chicken</p>
             </div>
           </div>
+
           <div className="w-full m-10 overflow-hidden rounded-3xl relative">
             <img
               className="absolute top-52 left-96 cursor-pointer"
