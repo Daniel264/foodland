@@ -6,18 +6,16 @@ import PlayButton from "../images/playbutton.svg";
 import { useLocation, useParams } from "react-router-dom";
 
 const NewRecipeDisplay = () => {
+  const { id } = useParams();
+  const location = useLocation();
+  const { image, text } = location.state || {};
 
-
-    const {id} = useParams();
-    const location = useLocation();
-    const {image, text} = location.state || {}
-  
   return (
     <>
       <div className="flex p-12">
         <div className="w-7/12">
           <h1 className="font-inter font-semibold text-5xl p-5">
-             {text || id} 
+            {text || id}
           </h1>
           <div className="flex ml-10">
             <JohnSmith />
@@ -48,33 +46,39 @@ const NewRecipeDisplay = () => {
             <img className="w-full" src={image} alt="" />
           </div>
         </div>
-        <div className="bg-[#E7FAFE] mx-auto rounded-3xl mt-44 w-96 text-center h-fit p-5">
+        <div className="bg-[#E7FAFE] mx-auto rounded-3xl mt-56 w-96 text-center h-fit p-5">
           <h2 className="text-3xl font-semibold">Nutrition Information</h2>
-          <div className="flex w-full justify-between divide-y-[1px] p-5">
+          <div className="flex w-full justify-between p-5">
             <p>Calories</p>
             <h4>219.9kcal</h4>
           </div>
-          <div className="flex justify-between divide-y-[1px] p-5">
+          <hr />
+          <div className="flex justify-between p-5">
             <p>Total Fat</p>
             <h4>10.7g</h4>
           </div>
-          <div className="flex justify-between divide-y-[1px] p-5">
+          <hr />
+          <div className="flex justify-between p-5">
             <p>Protein</p>
             <h4>7.9g</h4>
           </div>
-          <div className="flex justify-between divide-y-[1px] p-5">
+          <hr />
+          <div className="flex justify-between  p-5">
             <p>Carbohydrate</p>
             <h4>22.3g</h4>
           </div>
-          <div className="flex justify-between divide-y-[1px] p-5">
+          <hr />
+          <div className="flex justify-between p-5">
             <p>Cholesterol</p>
             <h4>37.4mg</h4>
           </div>
+          <hr />
           <p className="pt-24">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam,
             minus!
           </p>
         </div>
+        <hr />
       </div>
       <div className="p-12">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde
@@ -89,6 +93,5 @@ const NewRecipeDisplay = () => {
     </>
   );
 };
-
 
 export default NewRecipeDisplay;

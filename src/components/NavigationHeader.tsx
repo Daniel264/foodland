@@ -14,7 +14,7 @@ const NavigationHeader = () => {
           <li>Contact</li>
           <li>About Us</li>
         </ul>
-        <div className='flex flex-row w-24 justify-between'>
+        <div className='flex flex-row w-24 justify-between cursor-pointer'>
             <img src={facebook} alt="facebook logo" />
             <img src={twitter} alt="facebook logo" />
             <img src={instagram} alt="facebook logo" />
