@@ -63,7 +63,7 @@ const ImageGrid = () => {
         <Link to={`/users/${user.id}`}
         state={{image: user.image, text: user.text}}
         key={user.id}>
-          <ReausableImage image={user.image} alt={user.text} text={user.text}/>
+          <ReausableImage image={user.image} alt={user.text} text={user.text} />
         </Link>
 
       ))}

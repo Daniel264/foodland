@@ -14,11 +14,12 @@ const FeaturedRecipe = () => {
         className="mr-auto"
         src={LeftRectangle}
         alt="The left side of the Recipe Page"
+        loading="lazy"
       />
       <div className="flex w-10/12 overflow-hidden rounded-3xl ">
         <div className="w-1/2 bg-[#E7FAFE] px-16">
           <button className="btn bg-white rounded-3xl mt-16">
-            <img src={HotRecipes} alt="" />
+            <img src={HotRecipes} alt="" loading="lazy"/>
             Hot Recipes
           </button>
           <h1 className="font-semibold text-5xl py-7">
@@ -47,8 +48,7 @@ const FeaturedRecipe = () => {
           <img className="" src={MainPicture} alt="" />
         </div>
       </div>
-      <img
-        className="ml-auto"
+      <img         className="ml-auto"
         src={RightRectangle}
         alt="The right side of the Recipe Page"
       />
